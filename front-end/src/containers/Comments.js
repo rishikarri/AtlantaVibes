@@ -47,11 +47,11 @@ class Comments extends Component {
 
 
             // grab a default image from the back end in case the user has not uploaded a photo
-            var defaultUserImagePath = 'http://localhost:3000/images/avatars/default-user-image.jpg';
+            var defaultUserImagePath = 'http://rishikarri.com:3030/images/avatars/default-user-image.jpg';
 
             // grab the image that the user uploaded from the back ends
             var avatarImageName = comment.avatar_the_last_airbender;
-            var avatarImagePath = 'http://localhost:3000/images/avatars/'+avatarImageName
+            var avatarImagePath = 'http://rishikarri.com:3030/images/avatars/'+avatarImageName
 
             // if the user did not upload a picture, use a default image
             if (avatarImageName === null){

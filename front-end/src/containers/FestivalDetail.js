@@ -68,7 +68,7 @@ class FestivalDetail extends Component {
                 <div>asdf</div>
             )
         } else {
-            var backgroundImagePath = `http://localhost:3000/images/${this.props.festivalDetail.festival.card_image}`;
+            var backgroundImagePath = `http://rishikarri.com:3030/images/${this.props.festivalDetail.festival.card_image}`;
 
             // grab start and end date from redux and format nicely
             var startDate = this.props.festivalDetail.festival.start_date;

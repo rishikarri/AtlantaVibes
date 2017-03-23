@@ -10,7 +10,7 @@ var FestivalDetail = (festivalDetailData,updatedRating)=>{
 	}else{
 	    var thePromise = $.ajax({
 	        method: "GET",
-	        url: "http://localhost:3000/festivals/festivalDetail",
+	        url: "http://rishikarri.com:3030/festivals/festivalDetail",
 	        data: festivalDetailData
 	    });
 	    return{

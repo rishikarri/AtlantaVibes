@@ -6,7 +6,7 @@ var TopRated = (topRatedData)=>{
     var thePromise =
         $.ajax({
             method: "GET",
-            url: "http://localhost:3000/festivals/topRated",
+            url: "http://rishikarri.com:3030/festivals/topRated",
             data: topRatedData
         });
     return{

@@ -22,7 +22,7 @@ class FestivalCard extends Component {
         var festivalDatesFormatted = formattedStartDate + ' - '+ formattedEndDate;
 
         // grab background image from the back-end
-        var backgroundImagePath = `http://localhost:3000/images/${this.props.card.card_image}`;
+        var backgroundImagePath = `http://rishikarri.com:3030/images/${this.props.card.card_image}`;
 
         const backgroundImageObject = {
             backgroundImage: 'url('+ backgroundImagePath + ')',

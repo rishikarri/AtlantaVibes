@@ -6,7 +6,7 @@ var ViewAll = (viewAllData)=>{
     var thePromise =
         $.ajax({
             method: "GET",
-            url: "http://localhost:3000/festivals/viewAll",
+            url: "http://rishikarri.com:3030/festivals/viewAll",
             data: viewAllData
         });
     return{

@@ -3,7 +3,7 @@ import $ from 'jquery'
 var PostCommentAction = (postCommentData) => {
     var thePromise = $.ajax({
         method: 'POST',
-        url: "http://localhost:3000/festivals/postComment",
+        url: "http://rishikarri.com:3030/festivals/postComment",
         data: postCommentData
     });
     return {

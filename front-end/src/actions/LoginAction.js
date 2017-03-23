@@ -5,7 +5,7 @@ var LoginAction = (loginData)=>{
     var thePromise =
         $.ajax({
             method: "POST",
-            url: "http://localhost:3000/login",
+            url: "http://rishikarri.com:3030/login",
             data: loginData
         });
     // console.log(thePromise);
