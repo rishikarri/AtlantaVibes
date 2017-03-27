@@ -3,7 +3,7 @@
 AtlantaVibes is a Full-Stack application that aggregates data from the top ten music festivals into one easy to use website. AtlantaVibes lets users view, rate, comment and purchase tickets for their favorite festivals in Atlanta.
 ---
 
-## About:
+## Technologies Used:
 
 - HTML5
 - CSS3
